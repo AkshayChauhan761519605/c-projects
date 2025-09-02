@@ -5,7 +5,7 @@
 int main() {
     int x, y, guess, tries=5;
     srand(time(0));
-    x = rand() % 100 + 1;  // random number 1-100
+    x = rand() % 100 + 1; 
 
     printf("Guess number between 1 and 100\n");
     for(y=1; y<=tries; y++) {
@@ -21,3 +21,4 @@ int main() {
     printf("Out of attempts! Number was %d\n", x);
     return 0;
 }
+
